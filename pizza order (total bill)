@@ -1,0 +1,58 @@
+o=input('place your order')
+bill=0
+final_bill=0
+if o=='small':
+    print('pay 100')
+    pep=input('do you want to take pepporoni')
+    if pep=='yes':
+        pepporoni=30
+        bill=pepporoni+100
+        print(f'then you have to pay {bill}')
+        ex_cheese=input('do you also want extra cheese')
+        if ex_cheese=='yes':
+            extra_cheese=50
+            final_bill=bill+extra_cheese
+            print(final_bill)
+        else:
+            print(f'final bill is {bill}')
+
+    else:
+        print('pay 100 only')
+elif o=='medium':
+    print('pay 200')
+    pep = input('do you want to take pepporoni')
+    if pep == 'yes':
+        pepporoni = 50
+        bill = pepporoni + 200
+        print(f'then you have to pay {bill}')
+        ex_cheese = input('do you also want extra cheese')
+        if ex_cheese == 'yes':
+            extra_cheese = 50
+            final_bill = bill + extra_cheese
+            print(final_bill)
+        else:
+            print(f'final bill is {bill}')
+    else:
+        print('pay 200 only')
+elif o=='large':
+    print('pay 300')
+    pep = input('do you want to take pepporoni')
+    if pep == 'yes':
+        pepporoni = 50
+        bill = pepporoni + 300
+        print(f'then you have to pay {bill}')
+        ex_cheese = input('do you also want extra cheese')
+        if ex_cheese == 'yes':
+            extra_cheese = 50
+            final_bill = bill + extra_cheese
+            print(final_bill)
+        else:
+            print(f'final bill is {bill}')
+    else:
+        print('pay 300 only')
+else:
+    print("order invalid")
+
+
+
+
