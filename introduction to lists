@@ -1,0 +1,34 @@
+numbers=[1,2,3,4,5,6,7,8,9,10]
+print(numbers)
+print(numbers[2]) #will print at index 2
+print(numbers[-3]) #-ve index starts from -1 from last element.
+print(numbers[0:])   #length will be all by default.
+print(numbers[1:3])
+print(numbers[:])  #index as well as will be from 0 to last resp.
+print(numbers[:5])
+print(numbers[0::2])  #last is no of steps.
+print(numbers[0::3])
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
+print(max(numbers))
+print(min(numbers))
+numbers.append(11)   #inserts only 1 element in the list at last
+print(numbers)
+numbers.insert(10,0)  #inserts an element at particular index(specific position)
+print(numbers)
+numbers.extend([12,13,14])  #inserts many elements in the list at last
+print(numbers)
+numbers[11]=10
+print(numbers)
+numbers[12:15]=11,12,13,14,15,16  #at index 12 to length 15 i;e: 3 elements to insert,we can add more than 3 elements as well
+print(numbers)
+numbers.sort()
+print(numbers)
+numbers.remove(10)
+print(numbers)  #will remove ist occurance in the list.
+numbers.pop()  #will remove last occurance of the list.
+print(numbers)
+numbers.pop(0) #will remove element at index 0;
+print(numbers)
